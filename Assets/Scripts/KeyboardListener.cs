@@ -7,6 +7,7 @@ public class KeyboardListener : MonoBehaviour {
 	public BoolVariable KeydownAlpha1;
 	public BoolVariable KeydownAlpha2;
 	public BoolVariable KeydownAplha3;
+	public BoolVariable KeydownAplha4;
 
 	void UpdateKeyboardInputs() 
 	{
@@ -29,6 +30,13 @@ public class KeyboardListener : MonoBehaviour {
 			Debug.Log ("Alpha3 down.");
 		} else {
 			KeydownAplha3.SetValue(false);
+		}
+
+		if (Input.GetKeyDown (KeyCode.Alpha4)) {
+			KeydownAplha4.SetValue(true);
+			Debug.Log ("Alpha4 down.");
+		} else {
+			KeydownAplha4.SetValue(false);
 		}
 	}
 }

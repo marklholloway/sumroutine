@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DragAndDropCell.cs">
+    <Files>
+      <File FileName="Assets\Scripts\DragAndDropCell.cs" Line="332" Column="6" />
+      <File FileName="Assets\Scripts\CharacterSelectionManager.cs" Line="83" Column="24" />
+      <File FileName="Assets\Scripts\DragAndDropController.cs" Line="31" Column="26" />
+      <File FileName="Assets\Scripts\DragAndDropItem.cs" Line="12" Column="70" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

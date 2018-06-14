@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\CameraVariable.cs" />
      <Compile Include="Assets\Scripts\CharDisabler.cs" />
      <Compile Include="Assets\Scripts\CharManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelectionManager.cs" />
      <Compile Include="Assets\Scripts\ComponentDisabler.cs" />
      <Compile Include="Assets\Scripts\ComponentEnabler.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\DragAndDropCell.cs" />
+     <Compile Include="Assets\Scripts\DragAndDropController.cs" />
      <Compile Include="Assets\Scripts\DragAndDropItem.cs" />
      <Compile Include="Assets\Scripts\GMSPlayer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -67,14 +69,16 @@
      <Compile Include="Assets\Scripts\PlayerSetup.cs" />
      <Compile Include="Assets\Scripts\PlayerShoot.cs" />
      <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
-     <Compile Include="Assets\Scripts\SelectionController.cs" />
-     <Compile Include="Assets\Scripts\event\GameEvent.cs" />
-     <Compile Include="Assets\Scripts\event\GameEventListener.cs" />
+     <Compile Include="Assets\Scripts\TransformReference.cs" />
+     <Compile Include="Assets\Scripts\TransformVariable.cs" />
      <Compile Include="Assets\Scripts\things\RuntimeSet.cs" />
      <Compile Include="Assets\Scripts\things\Thing.cs" />
      <Compile Include="Assets\Scripts\things\ThingDisabler.cs" />
      <Compile Include="Assets\Scripts\things\ThingMonitor.cs" />
      <Compile Include="Assets\Scripts\things\ThingRuntimeSet.cs" />
+     <Compile Include="Assets\Scripts\things\event\GameEvent.cs" />
+     <Compile Include="Assets\Scripts\things\event\GameEventListener.cs" />
+     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DummyControlUnit.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
